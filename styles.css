@@ -21,11 +21,12 @@ body {
 .container {
     text-align: center;
     background-color: var(--container-bg);
-    padding: 2.5rem;
+    padding: min(2.5rem, 5vw);
     border-radius: 20px;
     box-shadow: 0 10px 30px var(--shadow-color);
-    width: 90%;
+    width: calc(100% - 2rem);
     max-width: 500px;
+    margin: 0 1rem;
 }
 
 .header {
