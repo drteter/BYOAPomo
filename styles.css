@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #62C6F2;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.timer {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    width: 45px;
+    height: 45px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#startBtn {
+    background-color: #4CAF50;
+}
+
+#startBtn:hover {
+    background-color: #45a049;
+}
+
+#pauseBtn {
+    background-color: #f44336;
+}
+
+#pauseBtn:hover {
+    background-color: #da190b;
+}
+
+#resetBtn {
+    background-color: #808080;
+}
+
+#resetBtn:hover {
+    background-color: #666666;
+}
+
+#addFive, .mode button {
+    width: auto;
+    background-color: purple;
+}
+
+#addFive:hover, .mode button:hover {
+    background-color: #1976D2;
+}
+
+.mode button.active {
+    background-color: #1565C0;
+} 
