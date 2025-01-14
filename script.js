@@ -13,6 +13,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const pauseIcon = toggleButton.querySelector('.pause-icon');
     const workIcon = modeToggleButton.querySelector('.work-icon');
     const breakIcon = modeToggleButton.querySelector('.break-icon');
+    
+    // Add these console logs
+    console.log('Work Icon Element:', workIcon);
+    console.log('Break Icon Element:', breakIcon);
+    console.log('Work Icon Classes:', workIcon?.classList);
+    console.log('Break Icon Classes:', breakIcon?.classList);
 
     const WORK_TIME = 25 * 60;
     const BREAK_TIME = 5 * 60;

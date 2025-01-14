@@ -1,7 +1,7 @@
 :root {
     --primary-bg: #E3F2FD;
     --container-bg: #FFFFFF;
-    --primary-color: #1e7fcd;
+    --primary-color: #2196F3;
     --secondary-color: #1976D2;
     --accent-color: #00BCD4;
     --text-color: #263238;
@@ -116,8 +116,9 @@ h1 {
     background-color: var(--secondary-color);
 }
 
-.hidden {
-    display: none;
+.mode-toggle .hidden,
+.control-btn .hidden {
+    display: none !important;
 }
 
 .material-icons {
