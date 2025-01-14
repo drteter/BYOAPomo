@@ -5,22 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="pageTitle">Pomodoro Timer</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
     <div class="container">
-        <h1>Pomodoro</h1>
+        <div class="header">
+            <button id="modeToggle" class="mode-toggle">
+                <span class="material-icons work-icon">local_fire_department</span>
+                <span class="material-icons break-icon hidden">self_improvement</span>
+            </button>
+        </div>
         <div class="timer">
             <span id="minutes">25</span>:<span id="seconds">00</span>
         </div>
         <div class="controls">
-            <button id="startBtn">▶</button>
-            <button id="pauseBtn">⏸</button>
-            <button id="resetBtn">⟳</button>
-            <button id="addFive">+5 Minutes</button>
-        </div>
-        <div class="mode">
-            <button id="work" class="active">Work (25m)</button>
-            <button id="break">Break (5m)</button>
+            <button id="toggleBtn" class="control-btn">
+                <span class="play-icon">▶</span>
+                <span class="pause-icon hidden">⏸</span>
+            </button>
+            <button id="resetBtn" class="control-btn">⟳</button>
         </div>
     </div>
     <script src="script.js"></script>
