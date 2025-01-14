@@ -93,8 +93,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize
     timeLeft = WORK_TIME;
     updateDisplay();
-    workIcon.classList.remove('hidden');
-    breakIcon.classList.add('hidden');
+    workIcon.classList.add('hidden');
+    breakIcon.classList.remove('hidden');
 
     // Event listeners
     toggleButton.addEventListener('click', toggleTimer);
